@@ -10,12 +10,8 @@
         </h3>
     </div>
     <div class="panel-body">
-
         <ul class="media-list">
             <li class="media" ng-repeat="item in list">
-                <a class="pull-left" href="#/api/{{item.href}}">
-                    <img class="media-object" ng-src="img/{{$index % 6}}.jpg" alt="...">
-                </a>
                 <div class="media-body">
                     <h4 class="media-heading">
                         <a href="#/api/{{item.href}}" title="{{item.description}}">{{item.name}}</a>
